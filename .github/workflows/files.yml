@@ -8,6 +8,7 @@ on:
 jobs:
   convert_conf_files:
     runs-on: ubuntu-latest
+    environment: CN_DNS
     
     steps:
     - name: Checkout code
